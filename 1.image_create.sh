@@ -14,3 +14,7 @@ docker images
 docker tag $APP_NAME gcr.io/$PROJECT_ID/$APP_NAME
 docker images
 docker push gcr.io/$PROJECT_ID/$APP_NAME
+
+docker run -d -p 8888:8888 gcr.io/$PROJECT_ID/$APP_NAME:latest
+docker ps
+curl http://localhost:8888
