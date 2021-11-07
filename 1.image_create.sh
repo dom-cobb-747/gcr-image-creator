@@ -1,7 +1,8 @@
+APP_NAME=myapp
 #upgrade pip
 /usr/local/bin/python -m pip install --upgrade pip
 #build image
-docker build -t myapp .
+docker build -t $APP_NAME .
 #getting $mytag
 # x="$PWD" && my_tag=${x#*home/} && echo $my_tag
 # #actually tagging 

@@ -1,0 +1,1 @@
+docker push gcr.io/$my_tag
