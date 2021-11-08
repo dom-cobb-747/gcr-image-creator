@@ -1,1 +1,1 @@
-kubectl apply -f /yaml/nginx.yaml
+kubectl apply -f yaml/nginx.yaml
