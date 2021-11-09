@@ -22,3 +22,5 @@ spec:
       value: admin
     - name: FTP_PASS
       value: password
+    - name: COVID_VAR
+      value: ICU
