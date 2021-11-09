@@ -17,8 +17,8 @@ spec:
     volumeMounts:
     - name: shared-data
       mountPath: /pod-data
-    # env:
-    # - name: FTP_USER
-    #   value: admin
-    # - name: FTP_PASS
-    #   value: password
+    env:
+    - name: FTP_USER
+      value: admin
+    - name: FTP_PASS
+      value: password
